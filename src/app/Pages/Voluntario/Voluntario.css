@@ -2,8 +2,8 @@
     background-image: url('/assets/tartaruga-plastico.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Para manter a imagem fixa ao rolar */
-    overflow-y: scroll; /* Adiciona barra de rolagem vertical */
+    background-attachment: fixed; 
+    overflow-y: scroll; 
     z-index: -1
 }
 
@@ -29,7 +29,7 @@
 .pagina-voluntario .Voluntario_titulo img{
     max-width: 100%;
     height: auto;
-    opacity: 0.7; /* Opacidade da imagem */
+    opacity: 0.7; 
 
 }
 

@@ -2,8 +2,8 @@
     background-image: url('/assets/pagina2.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Para manter a imagem fixa ao rolar */
-    overflow-y: scroll; /* Adiciona barra de rolagem vertical */
+    background-attachment: fixed; 
+    overflow-y: scroll; 
     z-index: -1
 
 }
@@ -20,7 +20,7 @@ margin: 3rem 2rem;
     width: 50%;
     height: 30rem;
     opacity: 0.8;
-    border-radius: 50%; /* Deixa a imagem circular */
+    border-radius: 50%; 
   }
 
 .Solucao_texto {
