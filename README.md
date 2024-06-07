@@ -1,3 +1,9 @@
+Links:
+Link youtube: https://www.youtube.com/watch?v=CQKRdIvWmX8 
+Link Codigo java: https://github.com/jumarianobf/GS-JAVA 
+Link deploy projeto front: https://my-gs-frontend.vercel.app 
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
