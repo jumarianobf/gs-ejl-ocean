@@ -84,3 +84,25 @@ label {
     color: #ffffffc0;
 }
 
+button {
+    width: 25%; /* Alterado para 30% */
+    border: none;
+    background-color: #6387ff;
+    padding: 0.62rem;
+
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.login:hover {
+    background-color: #4c479291;
+}
+
+.login {
+    margin-top: 1rem;
+    border-radius: 3rem;
+}
