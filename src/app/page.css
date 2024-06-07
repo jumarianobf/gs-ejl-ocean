@@ -1,0 +1,73 @@
+
+.pagina-home{
+  position: relative; 
+  overflow-y: scroll; /* Adiciona barra de rolagem vertical */
+  z-index: 0; 
+}
+
+.pagina-home::before {
+  content: '';
+  position: fixed; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/assets/oceano-home.avif');
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+  opacity: 0.7; /* Ajuste a opacidade conforme necessário */
+  z-index: -1; 
+}
+
+.pagina-home .icon image{
+  z-index: 1;
+}
+
+.Home_section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
+
+.Home_section img {
+  width: 50rem;
+  height: 50rem;
+  margin: 5rem;
+}
+
+.Home_text {
+  width: 75%;
+}
+
+.Home_text h1 {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.Home_text p {
+  text-align: justify;
+}
+
+@media (max-width: 1100px) {
+  .Home_section img {
+      width: 35rem;
+      height: 35rem;
+  }
+}
+
+@media (max-width: 900px) {
+  
+  .Home_section {
+      margin-bottom: 10rem;
+  }
+
+  .Home_section h1 {
+      font-size: 3rem;
+  }
+
+  .Home_section img {
+      display: none;
+  }
+}

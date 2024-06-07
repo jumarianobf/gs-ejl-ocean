@@ -1,0 +1,61 @@
+.solucao{
+    background-image: url('/assets/pagina2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Para manter a imagem fixa ao rolar */
+    overflow-y: scroll; /* Adiciona barra de rolagem vertical */
+    z-index: -1
+
+}
+
+.Solucao_titulo {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+margin: 3rem 2rem;
+}
+
+.Solucao_titulo img {
+    width: 50%;
+    height: 30rem;
+    opacity: 0.8;
+    border-radius: 50%; /* Deixa a imagem circular */
+  }
+
+.Solucao_texto {
+margin-right: 10rem;
+}
+
+.Solucao_texto h1 {
+font-size: 5rem;
+}
+
+
+.cardSolucao {
+display: grid;
+align-items: center;
+justify-content: center;
+grid-gap: 3.5rem;
+grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+margin: 10rem;
+
+}
+
+
+@media (max-width: 1100px) {
+.Solucao_titulo  img {
+    width: 75%;
+    height: 30rem;
+}
+
+.Solucao_texto h1 {
+    font-size: 3rem;
+}
+}
+
+@media (max-width: 850px) {
+.Solucao_titulo  img {
+    display: none;
+}
+}

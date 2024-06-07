@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 30rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+   
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0.3rem solid transparent;
+    margin-bottom: 14vh;
+}
+
+.card h1 {
+    margin: 2rem 0rem;
+    
+}
+
+.link-button {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .link-button .link-text {
+    color: white;
+    text-decoration: none;
+  }
+

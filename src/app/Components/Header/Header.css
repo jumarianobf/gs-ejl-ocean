@@ -1,0 +1,143 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    padding: 0rem 2rem 1rem 2rem;
+    
+    /* From https://css.glass */
+    background: rgb(58, 64, 68);
+    border-radius: 0px 0px 16px 16px;
+    opacity: 0.9;
+    background-color: #07070713;
+
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo a {
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+
+nav .logo img {
+    margin-top: 1.5rem;
+    width: 6rem;
+    height: 6rem;
+    
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0rem 1rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem 1rem 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 0.3rem solid transparent;
+}
+
+li a:hover {
+    border-bottom: 0.3rem solid
+}
+
+nav .menu {
+    display: none;
+  
+}
+
+
+.login {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .7s;
+    font-size: 2rem;
+    background: transparent;
+    border: 2px solid #abc5ec;
+    border-radius: 1rem;
+}
+
+.login:hover {
+    background: #b3dbf1;
+}
+
+.login a {
+    display: inline-block;
+    padding: 2rem 5rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+@media (max-width: 1100px) {
+    
+    .btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .menu {
+        display: flex;
+        margin: 2rem 3rem 1rem 3rem;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin: 2rem 0rem;
+        margin-bottom: 0.25rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 750px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav .open {
+        margin-top: 0rem;
+        margin-bottom: 2rem;
+    }
+}

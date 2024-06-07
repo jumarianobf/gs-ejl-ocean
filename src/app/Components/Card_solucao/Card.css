@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50rem; /* Aumenta a largura */
+    height: 70rem; /* Aumenta a altura */
+    padding: 3rem; /* Aumenta o padding */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 0.3rem solid transparent;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+}
+
+.card h1 {
+    margin: 2rem 0rem;
+}

@@ -1,0 +1,67 @@
+footer {
+    margin-top: 5rem;
+    padding: 0rem 5rem;
+    z-index: 1;
+
+    /* From https://css.glass */
+    background: rgb(58, 64, 68);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+    background-color: #07070713;
+}
+
+.footer_conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_marca {
+    padding: 2rem 1rem 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 0.3rem solid transparent;
+    
+}
+
+.footer_lista a {
+    display: inline;  
+    margin-right: 2.5rem;
+    text-decoration: none;
+    color: white;
+
+}
+  
+.footer_lista li {
+    padding: 2rem 1rem 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 0.3rem solid transparent;
+}
+  
+.footer_list li a:hover {
+    border-bottom: 0.3rem solid
+}
+
+.footer_copyright {
+    text-align: center;
+    border-top: 0.3rem solid;
+    padding: 1rem;
+}
+
+@media (max-width: 750px) {
+    .footer_list {
+        margin-left: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer_content_img {
+        width: 10.5rem;
+        height: 10.5rem;
+        margin-left: 0rem;
+    }
+}

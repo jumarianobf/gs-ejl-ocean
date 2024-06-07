@@ -1,0 +1,24 @@
+[
+    {
+      "id": "1",
+      "nome": "Nome do Integrante 1",
+      "rm": "12345",
+      "turma": "ABC",
+      "foto": "/integrante1.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Nome do Integrante 2",
+      "rm": "67890",
+      "turma": "DEF",
+      "foto": "/integrante2.jpg"
+    },
+    {
+        "id": "2",
+        "nome": "Nome do Integrante 2",
+        "rm": "67890",
+        "turma": "DEF",
+        "foto": "/integrante2.jpg"
+      }
+  ]
+  

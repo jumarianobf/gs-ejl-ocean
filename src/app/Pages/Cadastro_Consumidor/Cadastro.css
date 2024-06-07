@@ -1,0 +1,108 @@
+.consumidor {
+        background-image: url('/assets/icon-plastico1.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Para manter a imagem fixa ao rolar */
+        overflow-y: scroll; /* Adiciona barra de rolagem vertical */
+        
+        z-index: -1
+    
+    }
+
+
+.section_Cadastro {
+    opacity: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+    height: 70vh;
+    box-shadow: 60px 100px 100px rgba(0, 0, 0, 0.418);
+    border-radius: 20px;
+    background-color: #21243583; /* Cor roxa */
+}
+
+.section_Login h1 {
+    font-size: 5rem;
+}
+
+.section_Cadastro p {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.forms-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 45%; /* Alterado para 45% */
+    padding-bottom: 20px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.input-box  ::placeholder{
+    font-size: 1.3rem;
+}
+
+.input-box input {
+    height: 5rem;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    background: transparent;
+    border-radius: 3rem;
+    border: 2px solid #ffffff;
+    
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    color: #ffffffc0;
+}
+
+button {
+    width: 25%; /* Alterado para 30% */
+    border: none;
+    background-color: #6387ff;
+    padding: 0.62rem;
+
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+.login:hover {
+    background-color: #4c479291;
+}
+
+.login {
+    margin-top: 1rem;
+    border-radius: 3rem;
+}

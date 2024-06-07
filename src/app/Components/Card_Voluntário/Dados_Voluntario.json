@@ -1,0 +1,21 @@
+[
+    {
+        "id" : 1,
+        "name" : "Seja um consumidor",
+        "text" : "Torne-se parte da nossa comunidade de consumidores e descubra o impacto positivo que você pode gerar",
+        "href": "/Pages/Login_Consumidor"
+    },
+    {
+        "id" : 2,
+        "name" : "Venha ser nosso produtor",
+        "text" : "Participe da nossa rede e ajude a transformar resíduos em recursos valiosos",
+        "href": "/Pages/Login_Produtor"
+    },
+    {
+        "id" : 3,
+        "name" : "Seja um coletador",
+        "text" : "Faça parte do processo de reciclagem, ajudando a reduzir o desperdício e a preservar nossos recursos naturais.",
+        "href": "/Pages/Login_Coletador"
+    }
+    
+]
